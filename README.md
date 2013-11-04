@@ -21,6 +21,7 @@ vizaulizace softwarem Processing
 
 
 ##odkazy:
+- [visualizing.org](http://www.visualizing.org/explore#featured=1&sort=recent)
 - [google trends](http://www.google.com/trends/)
 - [NYtimes API](http://developer.nytimes.com/docs)
 - [Just Landed](http://blog.blprnt.com/blog/blprnt/just-landed-processing-twitter-metacarta-hidden-data)
