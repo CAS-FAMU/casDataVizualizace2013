@@ -6,7 +6,9 @@ Zimní semestr
 ##Anotace:
 
 
-Dílna sběru a vizualizace dat pro začátečníky. Data neznamenají nic pokud nejsou čtena. Workshop bude zaměřený na kolekci dat z rozdílných dostupných zdrojů, parsing (neboli čtení dat za pomocí určitého klíče) a následně možné grafické interpretace. Znalosti jakéhokoli programovacího jazyka výhodou, nikoli podmínkou. V tomto cvičení se seznámíme s možnými zdroji veřejných dat. Ukážeme si způsoby nakládání, filtraci a třídění informací pro potřeby jejich následné vizualizace.
+Dílna sběru a vizualizace dat pro začátečníky. Data neznamenají nic pokud nejsou čtena. Workshop bude zaměřený na kolekci dat z rozdílných dostupných zdrojů, parsing (neboli čtení dat za pomocí určitého klíče) a následně možné grafické interpretace.
+
+Znalosti jakéhokoli programovacího jazyka výhodou, nikoli podmínkou. V tomto cvičení se seznámíme s možnými zdroji veřejných dat. Ukážeme si způsoby nakládání, filtraci a třídění informací pro potřeby jejich následné vizualizace.
 porozumění datové struktury třetích stran (HTML, XML, JSON, CSV)
 převody jednotlivých formátů, úprava dat, automatizace
 návrh parsovací metody, selekce důležitých informací
