@@ -1,13 +1,13 @@
 // CAS dataviz blok 2013
 
-
 JSONObject json;
-  JSONArray values;
+JSONArray values;
 
 void setup() {
   size(320,240);
 
   textFont(createFont("Tahoma",9,false));
+  textAlign(CENTER);
 
   json = loadJSONObject("colors.json");
   values = json.getJSONArray("colors");
@@ -30,7 +30,8 @@ void draw(){
 
     fill(unhex(hodnota));
     rect(W,0,w,height);
+  
     fill(127);
-    text(barva,W+2,10);
+    text(barva,W+w/2,20);
   }
 }
