@@ -25,7 +25,7 @@ vizaulizace softwarem Processing
 - [NYtimes API](http://developer.nytimes.com/docs)
 - [Just Landed](http://blog.blprnt.com/blog/blprnt/just-landed-processing-twitter-metacarta-hidden-data)
 - [project Cascades](http://www.creativeapplications.net/processing/cascades-processing/)
-- 
+
 ##Literatura
 - [Processing Books Collection](http://processing.org/books/)
 - [Beautiful Visualizations, O'Reilly](http://shop.oreilly.com/product/0636920000617.do)
