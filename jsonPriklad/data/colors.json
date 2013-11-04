@@ -1,31 +1,31 @@
 {colors:[
 	{
 		color: "red",
-		value: "#f00"
+		value: "ffff0000"
 	},
 	{
 		color: "green",
-		value: "#0f0"
+		value: "ff00ff00"
 	},
 	{
 		color: "blue",
-		value: "#00f"
+		value: "ff0000ff"
 	},
 	{
 		color: "cyan",
-		value: "#0ff"
+		value: "ff00ffff"
 	},
 	{
 		color: "magenta",
-		value: "#f0f"
+		value: "ffff00ff"
 	},
 	{
 		color: "yellow",
-		value: "#ff0"
+		value: "ffffff00"
 	},
 	{
 		color: "black",
-		value: "#000"
+		value: "ff000000"
 	}
 ]
 }
