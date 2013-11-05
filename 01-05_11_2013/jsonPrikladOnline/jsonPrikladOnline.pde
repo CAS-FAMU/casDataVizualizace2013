@@ -10,7 +10,7 @@ void setup() {
   textFont(createFont("Tahoma",9,false));
 
   json = loadJSONObject("http://hawttrends.appspot.com/api/terms/");
-  array = json.getJSONArray("1");
+  array = json.getJSONArray("3");
   values = array.getStringArray();
 
 }
