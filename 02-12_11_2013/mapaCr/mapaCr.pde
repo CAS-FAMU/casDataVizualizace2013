@@ -13,9 +13,6 @@ PFont font;
 
 void setup() {
   size(1024, 650, P2D);
-
-  
-  
   
   font = loadFont("Planer-40.vlw");
   textFont(font);
@@ -81,13 +78,10 @@ class Obec {
     Y = map(lat, min_lat, max_lat, height, 0);
   }
   
-  
-
   void kresli() {
     velikost = map(pow(pocet_obyv,0.3),0,30,3,60);
     
     //velikost =  2/sqrt(dist(mouseX,mouseY,X,Y)) * 100.0;// 1080.0 / (pow ( dist(mouseX,mouseY,X,Y), 0.9) * 40.0) + 20;
-    
     
     noStroke();
     fill(#ffcc00,30);
@@ -98,15 +92,12 @@ class Obec {
     
     float d = dist(mouseX,mouseY,X,Y);
     if(d < 10){
-      
-      
       over = true;
       
       textFont(font, (18/d+1));
       fill(0,255 / d);
       text(nazev,X,Y);
     }
-    
   }
   
   void mail(){
