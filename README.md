@@ -36,6 +36,7 @@ vizaulizace softwarem Processing
 - [Processing Beta, NAMU](https://www.namu.cz/item.php?item=240), zdarma ke stažení [zde](https://github.com/K0F/processing_1/blob/master/Processing_Beta.pdf?raw=true)
 
 ##Výstupy:
+### Hustota zalidnění ČR
 
 Lea Petříková:
 ![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/leaMapa.png?raw=true)
