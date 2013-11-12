@@ -1,9 +1,10 @@
 #CAS Blok Data Vizualizace 2013
 
-![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/leaMapa.png?raw=true)
-
 Vizualizace dat za pomocí software [Processing](http://processing.org) (6 týdnů) 4+6+4+6+4+6 hod.
 Zimní semestr
+
+![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/leaMapa.png?raw=true)
+
 
 ##Anotace:
 
