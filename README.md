@@ -3,9 +3,6 @@
 Vizualizace dat za pomocí software [Processing](http://processing.org) (6 týdnů) 4+6+4+6+4+6 hod.
 Zimní semestr
 
-![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/leaMapa.png?raw=true)
-
-
 ##Anotace:
 
 
@@ -37,3 +34,12 @@ vizaulizace softwarem Processing
 - [Processing Books Collection](http://processing.org/books/)
 - [Beautiful Visualizations, O'Reilly](http://shop.oreilly.com/product/0636920000617.do)
 - [Processing Beta, NAMU](https://www.namu.cz/item.php?item=240), zdarma ke stažení [zde](https://github.com/K0F/processing_1/blob/master/Processing_Beta.pdf?raw=true)
+
+##Výstupy:
+
+
+![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/leaMapa.png?raw=true)
+
+![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/screen.png?raw=true)
+
+![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/anna.jpg?raw=true)
