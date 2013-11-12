@@ -37,9 +37,9 @@ vizaulizace softwarem Processing
 
 ##Výstupy:
 
-
+Lea Petříková:
 ![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/leaMapa.png?raw=true)
-
+Mária Júdová a Franz Milec:
 ![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/screen.png?raw=true)
-
+Anna Kryvenko:
 ![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/anna.jpg?raw=true)
