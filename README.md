@@ -1,4 +1,4 @@
-#CAS Blok Data Vizualizace 2013
+#CAS Blok Vizualizace Dat 2013
 
 Vizualizace dat za pomocí software [Processing](http://processing.org) (6 týdnů) 4+6+4+6+4+6 hod.
 Zimní semestr
