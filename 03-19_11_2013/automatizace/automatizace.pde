@@ -11,7 +11,7 @@ ArrayList clanky;
 Parser parser;
 
 String baseURL = "http://api.nytimes.com/svc/search/v1/article";
-String apiKey = "xxx";
+String apiKey = "563bad88e7b33f61d603c14824dfa508:1:68227020";
 
 ///////////////////////////////////////////
 
