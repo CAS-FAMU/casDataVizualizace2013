@@ -50,7 +50,9 @@ Anna Kryvenko:
 ![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/anna.jpg?raw=true)
 
 ### Jednoduche priklady (1. sezení)
-![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/01-05_11_2013/?raw=true)
-![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/01-05_11_2013/variace/obrazky/leaMapa.png?raw=true)
-![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/01-05_11_2013/variace/obrazky/leaMapa.png?raw=true)
+
+
+![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/01-05_11_2013/csvPriklad/screen.png?raw=true)
+![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/01-05_11_2013/jsonPrikladOnline/screen.png?raw=true)
+![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/01-05_11_2013/jsonPriklad/screen.png?raw=true)
 
