@@ -38,25 +38,25 @@ void draw() {
   textFont(text1,24);
   text(query, width/2, height/2);
 
-pushMatrix();
-    
-    translate(width/2,height/2);
-    
+  pushMatrix();
+
+  translate(width/2,height/2);
+
 
   for (int i = 0 ; i < clanky.size();i++) {
 
-    
+
     pushMatrix();
     rotate(map(i,0,clanky.size(), -PI , PI ));
-    
+
     Clanek tmp = (Clanek)clanky.get(i);
     tmp.kresli();   
-    
+
     popMatrix();
-    
-   }
-      
-      popMatrix();
+
+  }
+
+  popMatrix();
 
 }
 
