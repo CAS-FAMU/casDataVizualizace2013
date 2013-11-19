@@ -3,11 +3,11 @@
 
 //////////////////////////////////////////
 
-String query = "Europe";
-int start = 2000;
-int end = 2010;
+String query = "Crisis";
+int start = 2011;
+int end = 2013;
 
-int pocet = 1000;
+int pocet = 100;
 
 ArrayList clanky;
 Parser parser;
@@ -32,7 +32,7 @@ void setup() {
 ///////////////////////////////////////////
 
 void draw() {
-  background(255);
+  background(0);
 
   textAlign(CENTER);
   textFont(text1,24);

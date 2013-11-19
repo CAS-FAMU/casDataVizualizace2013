@@ -28,10 +28,6 @@ class Parser extends Thread {
     for(int ii = 0 ; ii < pocet;ii++){
       String request = baseURL + "?query=" + query + "&page=" + ii +"&begin_date=" + start + "0101&end_date=" + end + "0101&api-key=" + apiKey;
 
-      //    println(request);
-      //
-      //
-
       try{
         JSONObject nytData = loadJSONObject(request);
         JSONObject response = nytData.getJSONObject("response");
