@@ -12,7 +12,6 @@ class Parser {
     end = _end;
 
     nactiClanky();
-    
   }
 
   void kresli() {
@@ -26,27 +25,27 @@ class Parser {
   void nactiClanky() {
 
     clanky = new ArrayList();    
-    for(int ii = 0 ; ii < 10;ii++){
-    String request = baseURL + "?query=" + query + "&begin_date=" + start + "0101&end_date=" + end + "0101&page=" + ii +"&api-key=" + apiKey;
-    JSONObject nytData = loadJSONObject(request);
-    
-    
-    JSONArray results = nytData.getJSONArray("results");
-    
-    
+    for (int ii = 0 ; ii < pocet ;ii++) {
+      String request = baseURL + "?query=" + query + "&begin_date=" + start + "0101&end_date=" + end + "0101&page=" + ii +"&api-key=" + apiKey;
+      JSONObject nytData = loadJSONObject(request);
 
 
-    for (int i = 0 ; i < results.size(); i++) {
-      JSONObject temp = results.getJSONObject(i); 
+      JSONArray results = nytData.getJSONArray("results");
 
-      String telo = temp.getString("body");
-      String titulek = temp.getString("title");
-      String datum = temp.getString("date");
-      String link = temp.getString("url");
 
-      clanky.add(new Clanek(telo, titulek, datum, link));
+
+
+      for (int i = 0 ; i < results.size(); i++) {
+        JSONObject temp = results.getJSONObject(i); 
+
+        String telo = temp.getString("body");
+        String titulek = temp.getString("title");
+        String datum = temp.getString("date");
+        String link = temp.getString("url");
+
+        clanky.add(new Clanek(telo, titulek, datum, link));
+      }
     }
-  }
   }
 }
 

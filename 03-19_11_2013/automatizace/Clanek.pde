@@ -1,4 +1,3 @@
-int X = 20,Y = 50;
 
 class Clanek {
 
@@ -14,28 +13,21 @@ class Clanek {
     titulek =  _titulek;
     link = _link;
     datum =  _datum;
-  
-    x = X;
-    y = Y;
     
-    X += 200;
-    
-    if(X > width){
-     Y += 200;
-     X = 20; 
-    }
+    x = 0;
+    y = 0;
 
     println(titulek);
   }
   
   void kresli(){
-    fill(255);
+    fill(0);
     
     textFont(text1);
-    text(titulek,x,y-10);
+    text(titulek,x,y,200,100);
     
-    textFont(text2);
-    text(text, x,y,100,height);
+    //textFont(text2);
+    //text(text, x,y+200,100,height);
     
     
     
