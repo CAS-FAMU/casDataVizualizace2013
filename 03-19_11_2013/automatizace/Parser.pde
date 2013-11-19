@@ -23,22 +23,28 @@ class Parser extends Thread {
 
   void nactiClanky() {
 
-    clanky = new ArrayList();    
-    String request = baseURL + "?query=" + query + "&page=0-" + pocet +"&begin_date=" + start + "0101&end_date=" + end + "0101&api-key=" + apiKey;
+    clanky = new ArrayList(); 
 
-    println(request);
+    for(int ii = 0 ; ii < pocet;ii++){
+    String request = baseURL + "?query=" + query + "&page=" + ii +"&begin_date=" + start + "0101&end_date=" + end + "0101&api-key=" + apiKey;
+
+//    println(request);
     JSONObject nytData = loadJSONObject(request);
-    JSONArray results = nytData.getJSONArray("results");
+    JSONObject response = nytData.getJSONObject("response");
+    JSONArray docs = response.getJSONArray("docs");
 
-    for (int i = 0 ; i < results.size(); i++) {
-      JSONObject temp = results.getJSONObject(i); 
+    for (int i = 0 ; i < docs.size(); i++) {
+      try{
+      JSONObject temp = docs.getJSONObject(i); 
 
-      String telo = temp.getString("body");
-      String titulek = temp.getString("title");
-      String datum = temp.getString("date");
-      String link = temp.getString("url");
+      String telo = temp.getString("snippet");
+      String datum = temp.getString("pub_date");
+      String titulek = temp.getJSONObject("headline").getString("main");
+      String link = temp.getString("web_url");
 
       clanky.add(new Clanek(telo, titulek, datum, link));
+      }catch(Exception e){;}
+    }
     }
   }
 }

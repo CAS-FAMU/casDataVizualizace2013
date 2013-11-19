@@ -14,14 +14,14 @@ class Clanek {
     link = _link;
     datum =  _datum;
     
-    x = 50;
     y = 0;
 
     println(titulek);
   }
   
   void kresli(){
-    fill(0);
+    x = (sin(frameCount/100.0)+1.0) * 100.0 + 100.0;
+    fill(0,75);
     
     textAlign(LEFT);
     textFont(text2,9);

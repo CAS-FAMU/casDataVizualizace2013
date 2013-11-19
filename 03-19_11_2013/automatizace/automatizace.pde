@@ -7,12 +7,12 @@ String query = "Europe";
 int start = 2000;
 int end = 2010;
 
-int pocet = 20;
+int pocet = 100;
 
 ArrayList clanky;
 Parser parser;
 
-String baseURL = "http://api.nytimes.com/svc/search/v1/article";
+String baseURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json";
 String apiKey = "563bad88e7b33f61d603c14824dfa508:1:68227020";
 
 ///////////////////////////////////////////
