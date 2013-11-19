@@ -1,17 +1,17 @@
 ////////////////////////////////////////////////
-
-class Parser {
-
+class Parser extends Thread {
   int start, end;
   String query;
-
 
   Parser(String _query, int _start, int _end) {
     query = _query;
     start = _start;
     end = _end;
 
-    nactiClanky();
+   }
+  
+  void run(){
+    nactiClanky(); 
   }
 
   void kresli() {
@@ -26,14 +26,11 @@ class Parser {
 
     clanky = new ArrayList();    
     for (int ii = 0 ; ii < pocet ;ii++) {
-      String request = baseURL + "?query=" + query + "&begin_date=" + start + "0101&end_date=" + end + "0101&page=" + ii +"&api-key=" + apiKey;
+      String request = baseURL + "?query=" + query + "&page=" + ii +"&begin_date=" + start + "0101&end_date=" + end + "0101&api-key=" + apiKey;
+      
+      println(request);
       JSONObject nytData = loadJSONObject(request);
-
-
       JSONArray results = nytData.getJSONArray("results");
-
-
-
 
       for (int i = 0 ; i < results.size(); i++) {
         JSONObject temp = results.getJSONObject(i); 

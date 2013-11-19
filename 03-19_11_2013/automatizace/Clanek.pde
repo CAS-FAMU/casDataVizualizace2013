@@ -14,7 +14,7 @@ class Clanek {
     link = _link;
     datum =  _datum;
     
-    x = 0;
+    x = 50;
     y = 0;
 
     println(titulek);
@@ -23,7 +23,8 @@ class Clanek {
   void kresli(){
     fill(0);
     
-    textFont(text1);
+    textAlign(LEFT);
+    textFont(text2,9);
     text(titulek,x,y,200,100);
     
     //textFont(text2);
