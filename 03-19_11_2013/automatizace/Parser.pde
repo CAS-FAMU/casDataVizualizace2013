@@ -26,25 +26,31 @@ class Parser extends Thread {
     clanky = new ArrayList(); 
 
     for(int ii = 0 ; ii < pocet;ii++){
-    String request = baseURL + "?query=" + query + "&page=" + ii +"&begin_date=" + start + "0101&end_date=" + end + "0101&api-key=" + apiKey;
+      String request = baseURL + "?query=" + query + "&page=" + ii +"&begin_date=" + start + "0101&end_date=" + end + "0101&api-key=" + apiKey;
 
-//    println(request);
-    JSONObject nytData = loadJSONObject(request);
-    JSONObject response = nytData.getJSONObject("response");
-    JSONArray docs = response.getJSONArray("docs");
+      //    println(request);
+      //
+      //
 
-    for (int i = 0 ; i < docs.size(); i++) {
       try{
-      JSONObject temp = docs.getJSONObject(i); 
+        JSONObject nytData = loadJSONObject(request);
+        JSONObject response = nytData.getJSONObject("response");
+        JSONArray docs = response.getJSONArray("docs");
 
-      String telo = temp.getString("snippet");
-      String datum = temp.getString("pub_date");
-      String titulek = temp.getJSONObject("headline").getString("main");
-      String link = temp.getString("web_url");
+        for (int i = 0 ; i < docs.size(); i++) {
+          try{
+            JSONObject temp = docs.getJSONObject(i); 
 
-      clanky.add(new Clanek(telo, titulek, datum, link));
+            String telo = temp.getString("snippet");
+            String datum = temp.getString("pub_date");
+            String titulek = temp.getJSONObject("headline").getString("main");
+            String link = temp.getString("web_url");
+
+            clanky.add(new Clanek(telo, titulek, datum, link));
+          }catch(Exception e){;}
+        }
       }catch(Exception e){;}
-    }
+
     }
   }
 }

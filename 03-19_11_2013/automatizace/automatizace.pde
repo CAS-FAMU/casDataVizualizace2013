@@ -7,7 +7,7 @@ String query = "Europe";
 int start = 2000;
 int end = 2010;
 
-int pocet = 100;
+int pocet = 1000;
 
 ArrayList clanky;
 Parser parser;
@@ -44,19 +44,13 @@ void draw() {
 
 
   for (int i = 0 ; i < clanky.size();i++) {
-
-
     pushMatrix();
-    rotate(map(i,0,clanky.size(), -PI , PI ));
+    rotate(map(i,0,clanky.size(),-PI,PI));
 
     Clanek tmp = (Clanek)clanky.get(i);
     tmp.kresli();   
-
     popMatrix();
-
   }
-
   popMatrix();
-
 }
 
