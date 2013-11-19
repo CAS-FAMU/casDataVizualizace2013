@@ -3,7 +3,7 @@
 
 //////////////////////////////////////////
 
-String query = "Crisis";
+String query = "fukushima";
 int start = 2011;
 int end = 2013;
 

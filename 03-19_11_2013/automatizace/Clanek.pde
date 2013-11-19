@@ -16,7 +16,7 @@ class Clanek {
     datum =  _datum;
     
     y = 0;
-    x = X;
+    x = 100;
 
     X++;
 
