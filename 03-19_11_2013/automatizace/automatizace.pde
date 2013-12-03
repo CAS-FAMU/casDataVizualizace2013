@@ -3,9 +3,9 @@
 
 //////////////////////////////////////////
 
-String query = "fukushima";
-int start = 2011;
-int end = 2013;
+String query = "hiroshima";
+int start = 1940;
+int end = 1960;
 
 int pocet = 100;
 
@@ -13,7 +13,7 @@ ArrayList clanky;
 Parser parser;
 
 String baseURL = "http://api.nytimes.com/svc/search/v2/articlesearch.json";
-String apiKey = "xxx";
+String apiKey = "563bad88e7b33f61d603c14824dfa508:1:68227020";
 
 ///////////////////////////////////////////
 
