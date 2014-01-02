@@ -3,9 +3,9 @@
 
 //////////////////////////////////////////
 
-String query = "fukushima";
-int start = 2011;
-int end = 2013;
+String query = "hiroshima";
+int start = 1940;
+int end = 1960;
 
 int pocet = 100;
 

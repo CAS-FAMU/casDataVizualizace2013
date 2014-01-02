@@ -20,7 +20,7 @@ class Clanek {
 
     X++;
 
-    println(titulek);
+    println(datum+" "+titulek+" "+text);
   }
   
   void kresli(){

@@ -36,11 +36,11 @@ vizaulizace softwarem Processing
 - [Processing Beta, NAMU](https://www.namu.cz/item.php?item=240), zdarma ke stažení [zde](https://github.com/K0F/processing_1/blob/master/Processing_Beta.pdf?raw=true)
 
 ##Výstupy:
-### NYTimes API
+### NYTimes API (3. sezení)
 ![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/03-19_11_2013/automatizace/screen.png?raw=true)
 
 
-### Hustota zalidnění ČR
+### Hustota zalidnění ČR (2. sezení)
 
 Lea Petříková:
 ![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/leaMapa.png?raw=true)
@@ -48,3 +48,11 @@ Mária Júdová a Franz Milec:
 ![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/screen.png?raw=true)
 Anna Kryvenko:
 ![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/02-12_11_2013/variace/obrazky/anna.jpg?raw=true)
+
+### Jednoduche priklady (1. sezení)
+
+
+![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/01-05_11_2013/csvPriklad/screen.png?raw=true)
+![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/01-05_11_2013/jsonPrikladOnline/screen.png?raw=true)
+![Image](https://github.com/K0F/casDataVizualizace2013/blob/master/01-05_11_2013/jsonPriklad/screen.png?raw=true)
+

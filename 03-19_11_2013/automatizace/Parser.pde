@@ -7,7 +7,6 @@ class Parser extends Thread {
     query = _query;
     start = _start;
     end = _end;
-
   }
 
   void run(){
